@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.phonegap.app8"
+version = "1.0.0">
+
+<name>app8 Acciones</name>
+
+<description>
+Aplicación que muestra los Datos del Dispositivo, realiza la vibración y beep del Dispositivo y realiza el swipe o deslizamiento en el dispositivo
+</description>
+
+<author href="https://build.phonegap.com" email="brianhernandezmusic@gmail.com">
+Brian Hernandez Ramirez
+</author>
+
+
+
+<!--Personaliza la aplicacion y plataforma -->
+<preference name="orientation" value="default"/>
+<!-- preference name="orientation" value="portrait" />
+<preference name="orientation" value="landscape" /> -->
+<preference name="target-device" value="universal" />
+<preference name="fullscreen" value="true" />
+<preference name="android-installLocation" value="auto" />
+<preference name="permissions" value="INTERNET" />
+
+
+<!-- Plugins -->
+<!-- Core Plugins -->
+<plugin name="cordova-plugin-device" spec="~1.1.4" />
+<plugin name="cordova-plugin-vibration" spec="~2.1.3" />
+<plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
+
+<!-- <plugin name="cordova-plugin-inappbrowser" spec="~1.7.0" /> -->
+
+<!-- <plugin name="cordova-plugin-geolocation" scource="npm" /> -->
+<!-- Third part plugins -->
+
+<!--Para accesar a paginas en internet-->
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/*"/>
+<allow-intent href="http://*/*"/>
+<acces origin="http://*/*"/>
+<plugin name="cordova-plugin-whitelist" source="npm"/>
+
+<!-- Colocar icono app -->
+
+<icon src="res/android/mdpi.png" />
+
+</widget>
