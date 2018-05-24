@@ -2,12 +2,17 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>App8 Acciones</title>
+<title>App8 Mostrar Aplicaciones</title>
 
 <!--grupo CSS-->
 <link rel="stylesheet" href="css/tema-app8.min.css"/> 
 <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
 <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<style type="text/css">
+body,td,th {
+	color: #FFF;
+}
+</style>
 
 <!--grupo JavaScript-->
 <script src="js/jquery-1.11.2.min.js"></script>
@@ -22,25 +27,28 @@
 <body>
 <div data-role="page" id="Principal" data-theme="a">
 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
-    <h1>Aplicación 8 Mostrar Aplicaciones</h1>
+    <h1>Mostrar Aplicaciones</h1>
 	</div>
     
-	<div data-role="main" class="ui-content">
+<div data-role="main" class="ui-content">
  <div>
 	<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
     	<li class="ui-first-child ui-last-child">
         <a href="#Principalapp1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-        <h2>app1-2018 Datos del Dispositivo</h2>
+        <h2>APLICACIÓN 01</h2>
+        Datos del Dispositivo
         </a>
         </li>
         <li class="ui-first-child ui-last-child">
         <a href="#Principalapp5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-        <h2>app5 Advertencias del Dispositivo 2018</h2>
+        <h2>APLICACIÓN 05</h2>
+        Bippear y Vibrar
         </a>
         </li>
         <li class="ui-first-child ui-last-child">
         <a href="#Principalapp7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-        <h2>app7 Deslizar hacia la izquierda y a la derecha</h2>
+        <h2>APLICACIÓN 07</h2>
+        Deslizar
         </a>
         </li>
      </ul>
@@ -48,10 +56,10 @@
     </div>
     
  	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
-    	<h4>app8 Acciones</h4><h4> Brian Hernández Ramírez</h4>
+    	<h4>app8 Acciones<br> Brian Hernández Ramírez</h4>
         	<img src="res/android/mdpi.png" width="56" height="56">
-       </div>
-      </div>
+  </div>
+</div>
       
 <div data-role="page" id="Principalapp7" data-theme="a">
 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
@@ -170,32 +178,34 @@
      </div>
      	<div data-role="main" class="ui-content">
      		<div id="disp">
- <table width="200" border="1" id="datos">
+            <center>
+ <table width="80%" cellpadding="10px" id="datos">
  <tr>
- 	<td width="83">Datos</td>
-    <td width="101">Dispositivo</td>
+ 	<td width="83" bgcolor="#007FFF"><div align="left"><strong>Datos</strong></div></td>
+    <td width="101" bgcolor="#007FFF"><div align="left"><strong>Dispositivo</strong></div></td>
  </tr>
  <tr>
- 	<td>Nombre</td>
-    <td>&nbsp;</td>
+ 	<td bgcolor="#007FFF"><div align="left"><strong>Nombre</strong></div></td>
+    <td bgcolor="#FF9900"><div align="left"></div></td>
  </tr>
  <tr>
- 	<td>Phonegap</td>
-    <td>&nbsp;</td>
+ 	<td bgcolor="#007FFF"><div align="left"><strong>Phonegap</strong></div></td>
+    <td bgcolor="#FF9900"><div align="left"></div></td>
  </tr>
  <tr>
- 	<td>Plataforma</td>
-    <td>&nbsp;</td>
+ 	<td bgcolor="#007FFF"><div align="left"><strong>Plataforma</strong></div></td>
+    <td bgcolor="#FF9900"><div align="left"></div></td>
  </tr>
  <tr>
- 	<td>Versión</td>
-    <td>&nbsp;</td>
+ 	<td bgcolor="#007FFF"><div align="left"><strong>Versión</strong></div></td>
+    <td bgcolor="#FF9900"><div align="left"></div></td>
  </tr>
  <tr>
- 	<td>UUID</td>
-    <td>&nbsp;</td>
+ 	<td bgcolor="#007FFF"><div align="left"><strong>UUID</strong></div></td>
+    <td bgcolor="#FF9900"><div align="left"></div></td>
  </tr>
 </table>
+</center>
  	</div>
 </div>
 

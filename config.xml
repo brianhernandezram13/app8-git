@@ -5,7 +5,7 @@ xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "com.phonegap.app8"
 version = "1.0.0">
 
-<name>app8 Acciones</name>
+<name>app8 Mostrar Aplicaciones</name>
 
 <description>
 Aplicación que muestra los Datos del Dispositivo, realiza la vibración y beep del Dispositivo y realiza el swipe o deslizamiento en el dispositivo
